@@ -1,3 +1,5 @@
+![9ba05b63c09f2483916d7ac04379c29a1](https://user-images.githubusercontent.com/75381985/219608691-6aa194cd-b6e2-4dc8-999a-a140aa7f9dd7.jpg)
+
 ## AlwaysFine
 >이거 만들 시간에 공부했으면 전교 1등 했다.
 
@@ -18,23 +20,23 @@
 참고나 학습 용도의 사용은 가능하나 저작권자를 알아볼 수 없게 하는 행위, 무단 배포 등은 금지되어 있습니다.
  
 ## 사용 방법
-![제목 없음](https://user-images.githubusercontent.com/75381985/218766549-6fcf4268-6b4f-4a0f-9e1f-7250c567b168.png)
+![1](https://user-images.githubusercontent.com/75381985/219388588-dd9b30b7-b663-49f6-9942-12f658323cad.png)
 
 스킨을 실행하면 나오는 화면입니다. 미세먼지, 초미세먼지의 수치와 등급이 나오고, 등급에 따라 이모티콘과 배경 색상이 바뀝니다. 측정소는 송림 측정소(제물포고등학교와 가장 가까움)가 기본이며, 등급은 매우 좋음, 좋음, 양호, 보통, 나쁨, 매우 나쁨, 심각, 최악으로 총 8단계입니다.
 
-![제목 없음1](https://user-images.githubusercontent.com/75381985/218766555-2968cdb7-8ebe-40a9-821d-030389c9c107.png)
+![2](https://user-images.githubusercontent.com/75381985/219388653-df439cec-fd23-4687-a782-c711826d8c6d.png)
 
 미세먼지와 초미세먼지 수치에 마우스를 올려두면 해당 등급의 범위와 행동 지침을 볼 수 있습니다.
 
-![제목 없음2](https://user-images.githubusercontent.com/75381985/218766560-814a7555-1fc0-4b7a-bedc-7ebd2e071bd7.png)
+![3](https://user-images.githubusercontent.com/75381985/219388708-74f90d27-c51c-4913-859e-94a7091b27c5.png)
 
 왼쪽 위 아이콘을 누르면 설정창이 열리며 마우스를 올려두면 현재 측정소와 기준 시간이 나옵니다.
 
-![제목 없음3](https://user-images.githubusercontent.com/75381985/218766564-dbed2f21-920b-4df1-b751-6957c5311e5a.png)
+![4](https://user-images.githubusercontent.com/75381985/219388756-0e6af852-766f-4964-bfc1-1bbfaa1a1fdf.png)
 
 설정창입니다. 입력창에 원하는 측정소의 이름(예: 송현)을 입력한 후 엔터를 누르면, 측정소 위치가 바뀝니다. 입력창이 사라진 경우 설정창을 닫은 후 다시 여세요. 그 아래는 버전 정보입니다. 인터넷에 문제가 있는 등 특별한 경우가 아니면 자동 업데이트를 지원하기에 항상 최신 버전으로 나오는 것이 정상입니다. 또한 아래의 두 링크는 각각 미세먼지 측정소 목록과 이 페이지로 연결되는 링크입니다.
 
-![제목 없음4](https://user-images.githubusercontent.com/75381985/218766535-19fb3ba5-335f-43cb-b590-969b0d8ce1e5.png)
+![5](https://user-images.githubusercontent.com/75381985/218766535-19fb3ba5-335f-43cb-b590-969b0d8ce1e5.png)
 
 측정소가 점검 중이거나 문제가 생긴 경우 다음과 같이 표시됩니다.
 
