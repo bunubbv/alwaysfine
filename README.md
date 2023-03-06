@@ -3,6 +3,8 @@
 ## AlwaysFine
 >이거 만들 시간에 공부했으면 전교 1등 했다.
 
+[안내] 스킨의 사용처가 늘면서 유지 보수 등의 불편함이 존재하여, 레인미터를 사용하지 않고 Electron으로 새로 개발할 예정입니다. 물론 바빠서 언제 완성될지는 모릅니다.
+
 **AlwaysFine**은 미세먼지와 초미세먼지 정보를 바탕 화면에 표시하는 [Rainmeter](https://www.rainmeter.net/) 스킨입니다. 대한민국 내 모든 측정소를 지원하며, 누구나 쉽고 빠르고 정확하게, 직관적으로 미세먼지와 초미세먼지 정보를 확인할 수 있습니다.
 
 Windows 10 이상에서 작동하며, [Spoqa Han Sans Neo](https://spoqa.github.io/spoqa-han-sans) 글꼴을 사용합니다.
