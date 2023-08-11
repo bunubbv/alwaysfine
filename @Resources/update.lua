@@ -1,10 +1,6 @@
-function updateExecute(iniOldPath, iniNewPath, luaOldPath, luaNewPath, removeDir)
-    iniOld = SKIN:MakePathAbsolute(iniOldPath)
-    iniNew = SKIN:MakePathAbsolute(iniNewPath)
-    luaOld = SKIN:MakePathAbsolute(luaOldPath)
-    luaNew = SKIN:MakePathAbsolute(luaNewPath)
-    rmDir = SKIN:MakePathAbsolute(removeDir)
+function updateExecute(p, hash)
+    path = SKIN:MakePathAbsolute(p)
+    command = string.format('powershell -command "cd \'%s\';cd ../;wget https://***************************** -OutFile update.zip";$pubHash = \'%s\';$fileHash = Get-FileHash update.zip -Algorithm md5;if($fileHash.Hash -eq $pubHash){;expand-archive -path \'update.zip\';RD AlwaysFine -Recurse;mv update AlwaysFine -Recurse;RD update -Recurse;}else{;exit;}', path, hash)
 
-    command = string.format('xcopy "%s" "%s" /y && xcopy "%s" "%s" /y && rd /S /Q "%s"', iniNew, iniOld, luaNew, luaOld, rmDir)
     os.execute(command)
 end
