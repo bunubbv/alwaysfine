@@ -1,4 +1,4 @@
-![9ba05b63c09f2483916d7ac04379c29a1](https://user-images.githubusercontent.com/75381985/219609891-932a76c6-b85d-44d2-b5a9-82e5b0841ad2.jpg)
+![header](https://user-images.githubusercontent.com/75381985/219609891-932a76c6-b85d-44d2-b5a9-82e5b0841ad2.jpg)
 
 ## AlwaysFine
 **AlwaysFine**은 미세먼지와 초미세먼지 정보를 바탕 화면에 표시하는 [Rainmeter](https://www.rainmeter.net/) 스킨입니다. 대한민국 내 모든 측정소를 지원하며, 누구나 쉽고 빠르고 정확하게, 직관적으로 미세먼지와 초미세먼지 정보를 확인할 수 있습니다.
@@ -16,20 +16,20 @@ Windows 10 이상에서 작동하며, [한국환경공단 에어코리아 대기
  * 깔끔하고 단순한 디자인 및 UI
  * 1시간 단위 자동 갱신
  * 자동 업데이트 지원
- 
+
 ## 이용 범위
 AlwaysFine은 GNU Lesser General Public License v2.1 라이선스로 배포됩니다. 자세한 내용은 [LICENSE](/LICENSE)를 참조하세요.
- 
+
 ## 사용 방법
-![1](https://github.com/Doiram/AlwaysFine/assets/75381985/bfb1733a-a2cd-4968-af0e-377b28133b80)
+![1](https://github.com/Doiram/AlwaysFine/assets/75381985/91a61dbf-6e06-4dce-ae0b-9c8b024f7c93)
 
 스킨을 실행하면 미세먼지, 초미세먼지의 수치가 나오고, 등급에 따라 이모티콘과 배경이 바뀝니다. 측정소는 송현 측정소(제물포고등학교와 가장 가까운 측정소)가 기본이며, 등급은 매우 좋음, 좋음, 양호, 보통, 나쁨, 매우 나쁨, 최악으로 총 7단계입니다.
 
-![2](https://github.com/Doiram/AlwaysFine/assets/75381985/c1b88bcb-3992-48bb-b398-b1bc42ce0605)
+![2](https://github.com/Doiram/AlwaysFine/assets/75381985/e81bc074-0a4f-485e-8301-3888dd93e164)
 
 미세먼지와 초미세먼지 수치에 마우스를 올리면 해당 등급의 범위와 행동 지침을 볼 수 있습니다.
 
-![3](https://github.com/Doiram/AlwaysFine/assets/75381985/e65156da-0830-4876-a419-6dc7e6b6eb72)
+![3](https://github.com/Doiram/AlwaysFine/assets/75381985/851de94a-97f7-496f-ae4b-94f40d5c4a49)
 
 설정 버튼을 누르면 설정 창이 나옵니다. 아무 곳이나 눌러 닫을 수 있으며, 입력창에 원하는 측정소의 이름을 입력한 후 엔터를 누르면 측정소가 변경됩니다. 변경한 측정소 정보는 계속 유지되며, 기본값은 송현입니다.
 
