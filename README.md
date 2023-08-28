@@ -22,15 +22,15 @@ Windows 10 이상 및 [한국환경공단 에어코리아 대기오염정보 오
 AlwaysFine은 GNU Lesser General Public License v2.1 라이선스로 배포됩니다. 자세한 내용은 [LICENSE](/LICENSE)를 참조하세요.
 
 ## 사용 방법
-![1](https://github.com/Doiram/AlwaysFine/assets/75381985/7b7ca008-a81f-4a46-8378-ed6bde9fd0f4)
+![1](https://github.com/bunubbv/AlwaysFine/assets/75381985/2588eb52-7bd0-4e85-b61c-98d0ca105136)
 
 스킨 로드 시 미세먼지, 초미세먼지 수치 및 등급을 확인할 수 있습니다. 제물포고등학교와 가장 가까운 송현 측정소가 기본 측정소입니다. 등급은 좋음, 양호, 보통, 나쁨, 매우 나쁨, 최악으로 총 6단계입니다.
 
-![2](https://github.com/Doiram/AlwaysFine/assets/75381985/12117c97-fd41-4889-8dcb-b50c35678794)
+![2](https://github.com/bunubbv/AlwaysFine/assets/75381985/907e3808-9286-4f72-93f5-313e8f2152a5)
 
 미세먼지와 초미세먼지 수치에 마우스를 올리면 해당 등급의 범위와 행동 지침을 볼 수 있습니다.
 
-![3](https://github.com/Doiram/AlwaysFine/assets/75381985/3cf6f6f9-fa2e-4cc6-961c-0384c047a53f)
+![3](https://github.com/bunubbv/AlwaysFine/assets/75381985/eaa03fd9-dd29-4b11-8889-72fb4584c125)
 
 설정 창을 누른 모습입니다. 아무 곳이나 눌러 닫을 수 있습니다. 측정소 변경을 원하는 경우 입력 창에 원하는 측정소의 이름을 정확히 입력한 후 Enter를 누르면 변경됩니다. 변경한 측정소는 스킨에 저장됩니다.
 
@@ -98,7 +98,7 @@ AlwaysFine은 GNU Lesser General Public License v2.1 라이선스로 배포됩�
  * 2023-08-28 5.4.1
       * 깃허브 링크 변경
       * 부자연스러운 문구 수정
-      * 잘못된 측정값 반환 시 문구 변경
+      * 신뢰할 수 없는 측정값을 표시하지 않도록 변경
 
 ## 기타
  * Rainmeter는 HiDPI를 지원하지 않아 일부 환경에서 설치 후 스킨이 흐릿하게 나옵니다. 이를 해결하려면 Rainmeter가 설치된 폴더(Program Files/Rainmeter)에서 Rainmeter.exe 우클릭 후 차례대로 "호환성", "높은 DPI 설정 변경"을 누른 뒤, "높은 DPI 조정 동작을 재정의합니다."를 활성화하세요.
