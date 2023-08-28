@@ -1,7 +1,7 @@
 ![header](https://user-images.githubusercontent.com/75381985/219609891-932a76c6-b85d-44d2-b5a9-82e5b0841ad2.jpg)
 
 ## AlwaysFine
-**AlwaysFine**은 미세먼지와 초미세먼지 수치를 바탕 화면에 표시하는 [Rainmeter](https://www.rainmeter.net) 스킨입니다. 대한민국 내 모든 측정소를 지원합니다.
+**AlwaysFine**은 미세먼지와 초미세먼지 수치를 바탕 화면에 표시하는 [Rainmeter](https://www.rainmeter.net) 스킨입니다.
 
 Windows 10 이상 및 [한국환경공단 에어코리아 대기오염정보 오픈 API](https://www.data.go.kr/data/15073861/openapi.do) 키가 필요합니다.
 
@@ -11,6 +11,7 @@ Windows 10 이상 및 [한국환경공단 에어코리아 대기오염정보 오
 어쨌든 빠른 구현을 위해 Rainmeter를 사용했으나, 기능이 많아져 개발에 어려움을 겪고 있습니다. 그냥 직접 만드는 게 낫습니다.
 
 ## 기능
+ * 대한민국 내 모든 측정소 지원
  * 자체 분류 기준 사용
  * 측정소 변경 및 저장
  * 단순하고 깔끔한 UI
