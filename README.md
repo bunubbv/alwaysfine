@@ -3,10 +3,10 @@
 ## AlwaysFine
 **AlwaysFine**은 미세먼지와 초미세먼지 수치를 바탕 화면에 표시하는 [Rainmeter](https://www.rainmeter.net) 스킨입니다.
 
-2022년 하반기, 학급에서 미세먼지 수치를 매일 칠판에 기록하는 역할을 담당하게 되었는데, 이를 더 편하게 하려고 개발했습니다. 대한민국 내 모든 측정소를 지원하고 WHO 기준을 일부 수정한 자체 기준을 사용합니다.
+2022년 하반기, 학급에서 미세먼지 수치를 매일 칠판에 기록하는 역할을 담당하게 되었는데, 이를 더 편하게 하기 위해 개발했습니다. 대한민국 내 모든 측정소를 지원하고 WHO 기준을 수정한 자체 기준을 사용합니다.
 
 ## 사용 방법
-AlwaysFine은 Windows 10, 11(권장)을 지원하며, 측정소에서 정보를 불러오기 위해 API 키를 입력해야 합니다. [이곳에서](https://www.data.go.kr/data/15073861/openapi.do) API 키를 발급받고, 스킨이 위치한 폴더 내에 'servicekey.inc' 파일을 생성합니다.
+Windows 10, 11(권장)을 지원하며, 사용 전 측정소에서 정보를 불러오기 위해 API 키를 입력해야 합니다. [이곳에서](https://www.data.go.kr/data/15073861/openapi.do) API 키를 발급받고, 스킨이 위치한 폴더 내에 'servicekey.inc' 파일을 생성합니다.
 <pre>
 [Variables]
 serviceKey=(SERVICEKEY)
