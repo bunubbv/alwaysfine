@@ -3,30 +3,30 @@
 ## AlwaysFine
 **AlwaysFine**은 미세먼지와 초미세먼지 수치를 바탕 화면에 표시하는 [Rainmeter](https://www.rainmeter.net) 스킨입니다.
 
-학급에서 미세먼지 수치를 매일 칠판에 적는 역할을 담당하게 되었는데, 조금 더 편한 방법을 찾던 중 개발했습니다. 대한민국 내 모든 측정소를 지원하고, WHO 기준을 일부 수정한 자체 기준을 사용합니다.
+2022년 하반기, 학급에서 미세먼지 수치를 매일 칠판에 기록하는 역할을 담당하게 되었는데, 조금 더 편하게 할 수 있도록 개발했습니다. 대한민국 내 모든 측정소를 지원하고 WHO 기준을 일부 수정한 자체적인 기준을 사용합니다.
 
 ## 사용 방법
-Windows 10, 11(권장)을 지원합니다. [API 키를 발급받고](https://www.data.go.kr/data/15073861/openapi.do) 스킨 폴더 내에 'servicekey.inc'를 생성한 뒤 아래 내용을 입력합니다.
-<pre>   
+AlwaysFine은 Windows 10, 11(권장)을 지원하며, 스킨을 사용하려면 API 키를 입력해야 합니다. [이곳에서](https://www.data.go.kr/data/15073861/openapi.do) API 키를 발급받고, 스킨이 있는 폴더에 'servicekey.inc' 파일을 생성합니다.
+<pre>
 [Variables]
-serviceKey=(KEY)
+serviceKey=(SERVICEKEY)
 </pre>
-(KEY)에 발급받은 키를 입력하면 됩니다. 반드시 인코딩된 키를 입력해야 하며, 저장 후 Rainmeter를 재시작하세요.
+(SERVICEKEY)에 API 키를 입력해주세요. **API 키는 인코딩된 키를 사용해야 합니다.** 그리고 저장한 뒤, Rainmeter를 재시작하세요.
 
-## 사용 모습
+## 구동 모습
 ![1](https://github.com/bunubbv/AlwaysFine/assets/75381985/2588eb52-7bd0-4e85-b61c-98d0ca105136)
 
-로드 시 미세먼지, 초미세먼지 수치, 등급이 표시됩니다. 등급은 총 6단계이며 제물포고등학교 인근 송현 측정소가 기본값입니다.
+스킨 로드 시 미세먼지, 초미세먼지 수치 및 등급을 확인할 수 있습니다. 측정소는 제물포고등학교와 가장 가까운 송현 측정소가 기본값이며, 등급은 좋음, 양호, 보통, 나쁨, 매우 나쁨, 최악으로 총 6단계가 있습니다.
 
 ![2](https://github.com/bunubbv/AlwaysFine/assets/75381985/907e3808-9286-4f72-93f5-313e8f2152a5)
 
-미세먼지와 초미세먼지 수치에 마우스를 올리면 현재 등급의 분류 범위 및 행동 지침을 볼 수 있습니다.
+미세먼지와 초미세먼지 수치에 마우스를 올리면 현재 등급의 분류 범위와 행동 지침을 볼 수 있습니다.
 
 ![3](https://github.com/bunubbv/AlwaysFine/assets/75381985/eaa03fd9-dd29-4b11-8889-72fb4584c125)
 
-설정 버튼을 누른 모습입니다. 오른쪽에 스킨의 버전이 표시되며 측정소 목록, 깃허브 링크는 각각의 링크로 연결되는 버튼입니다.
+설정 버튼을 누른 모습입니다. 아무 곳이나 눌러 닫을 수 있습니다. 측정소 변경을 원하는 경우 입력 창에 측정소 이름을 입력한 뒤 Enter를 누르면 됩니다. "측정소 목록"을 눌러 자세한 정보를 확인할 수 있습니다. 또한 변경한 측정소는 자동 업데이트 전까지 유지됩니다.
 
-입력 창에 측정소 이름을 입력한 뒤, Enter를 누르면 입력한 측정소로 변경됩니다. 변경 내용은 자동 업데이트 전까지 유지됩니다.
+오른쪽에서 스킨의 버전을 확인할 수 있으며, "깃허브 링크"를 누르면 현재 페이지로 연결됩니다.
 
 ## 라이선스
 AlwaysFine은 GNU Lesser General Public License v2.1 라이선스로 배포됩니다. 자세한 내용은 [LICENSE](/LICENSE)를 참조하세요.
@@ -95,8 +95,11 @@ AlwaysFine은 GNU Lesser General Public License v2.1 라이선스로 배포됩�
 * 2023-08-30 5.4.2
     * Windows 10 1904에서 업데이트 중 파일이 손상되는 문제 해결
     * 업데이트 이후 스킨을 자동으로 다시 로드
-    * 자동 업데이트 코드를 분리하여 안정성 향상
+    * 업데이트 코드를 분리하여 스킨 안정성 향상
+* 2023-08-30 5.4.3
+    * 미세먼지 정보가 갱신되지 않는 문제 해결
+    * 코드 구조 개선 및 최적화
 
-## 기타
-* Rainmeter는 HiDPI를 지원하지 않습니다. Rainmeter가 설치된 폴더(Program Files/Rainmeter)에서 Rainmeter.exe 우클릭 후 "속성", "호환성", "높은 DPI 설정 변경"에서 "높은 DPI 조정 동작을 재정의합니다."를 활성화하여 강제 적용이 가능합니다.
-* [레거시 \(4.x.x) 스킨 보기](https://github.com/bunubbv/alwaysfine/tree/08fc0554353d3b64ec0ebb01d77568ae9ac6dd05)
+## 그 외
+ * Rainmeter는 HiDPI를 지원하지 않아 시인성 문제가 있을 수 있습니다. 이를 해결하려면 Rainmeter 폴더(Program Files/Rainmeter)에서 "Rainmeter.exe"를 우클릭한 후, "속성", "호환성", "높은 DPI 설정 변경"에서 "높은 DPI 조정 동작을 재정의합니다."를 활성화하면 됩니다.
+ * [레거시 스킨 \(4.x.x) 보기](https://github.com/bunubbv/alwaysfine/tree/08fc0554353d3b64ec0ebb01d77568ae9ac6dd05)
