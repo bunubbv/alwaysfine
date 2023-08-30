@@ -3,23 +3,17 @@
 ## AlwaysFine
 **AlwaysFine**은 미세먼지와 초미세먼지 수치를 바탕 화면에 표시하는 [Rainmeter](https://www.rainmeter.net) 스킨입니다.
 
-Windows 10 이상 및 [한국환경공단 에어코리아 대기오염정보 오픈 API](https://www.data.go.kr/data/15073861/openapi.do) 키가 필요합니다.
+학급에서 미세먼지 수치를 매일 칠판에 적는 역할을 담당하게 되었는데, 조금 더 편한 방법을 생각하다 개발하게 되었습니다. 대한민국 내 모든 측정소를 지원하고, WHO 기준을 변형한 자체 기준을 사용합니다. 또한 자동 업데이트 기능과 깔끔한 UI가 특징입니다.
 
-## 스킨을 제작한 이유
-2022년 가을, 학급에서 미세먼지 수치를 매일 칠판에 기록하는 역할을 담당하게 되었는데, 이것이 너무 귀찮아서 만들게 되었습니다. 사실 봉사 시간을 받아야 해서 이후에도 계속 칠판에 기록하긴 했지만요. 어쨌든 빠른 구현을 위해 Rainmeter를 사용했으나, 기능이 많아져 개발에 어려움을 겪고 있습니다. 그냥 직접 만드는 게 낫습니다.
+## 사용 방법
+Windows 10, 11(권장)을 지원합니다. [API 키를 발급받고](https://www.data.go.kr/data/15073861/openapi.do) 스킨이 위치한 폴더에 'servicekey.inc'를 생성한 뒤 아래 내용을 입력합니다.
+<pre>   
+[Variables]
+serviceKey=(KEY)
+</pre>
+(KEY)에 발급받은 키를 입력하면 됩니다. 반드시 인코딩된 키를 입력해야 하며, 저장 후 Rainmeter를 재시작하세요.
 
-## 스킨의 기능과 특징
- * 대한민국 내 모든 측정소 지원
- * 자체 분류 기준 사용
- * 측정소 변경 및 저장
- * 단순하고 깔끔한 UI
- * 1시간 단위 자동 갱신
- * 자동 업데이트 지원
-
-## 라이선스
-AlwaysFine은 GNU Lesser General Public License v2.1 라이선스로 배포됩니다. 자세한 내용은 [LICENSE](/LICENSE)를 참조하세요.
-
-## 도움말
+## 사용 모습
 ![1](https://github.com/bunubbv/AlwaysFine/assets/75381985/2588eb52-7bd0-4e85-b61c-98d0ca105136)
 
 스킨 로드 시 미세먼지, 초미세먼지 수치 및 등급을 확인할 수 있습니다. 제물포고등학교와 가장 가까운 송현 측정소가 기본 측정소입니다. 등급은 좋음, 양호, 보통, 나쁨, 매우 나쁨, 최악으로 총 6단계입니다.
@@ -35,6 +29,9 @@ AlwaysFine은 GNU Lesser General Public License v2.1 라이선스로 배포됩�
 오른쪽은 버전 정보입니다. 자동 업데이트를 지원하기에 최신 버전으로 나오는 것이 일반적입니다.
 
 측정소 목록, 깃허브 링크 버튼의 경우 각각 미세먼지 측정소 목록과 깃허브 페이지로 연결됩니다.
+
+## 라이선스
+AlwaysFine은 GNU Lesser General Public License v2.1 라이선스로 배포됩니다. 자세한 내용은 [LICENSE](/LICENSE)를 참조하세요.
 
 ## 업데이트
  * 과거 내역은 별도로 기록하지 않았습니다.
@@ -103,5 +100,5 @@ AlwaysFine은 GNU Lesser General Public License v2.1 라이선스로 배포됩�
       * 스킨의 안정성을 위해 업데이트 관련 코드를 분리
 
 ## 기타
- * Rainmeter는 HiDPI를 지원하지 않아 일부 환경에서 설치 후 스킨이 흐릿하게 나옵니다. 이를 해결하려면 Rainmeter가 설치된 폴더(Program Files/Rainmeter)에서 Rainmeter.exe 우클릭 후 차례대로 "호환성", "높은 DPI 설정 변경"을 누른 뒤, "높은 DPI 조정 동작을 재정의합니다."를 활성화하세요.
- * [이전 버전\(4.x) 스킨 보기](https://github.com/Doiram/AlwaysFine/tree/08fc0554353d3b64ec0ebb01d77568ae9ac6dd05)
+ * Rainmeter는 HiDPI를 지원하지 않습니다. Rainmeter가 설치된 폴더(Program Files/Rainmeter)에서 Rainmeter.exe 우클릭 후 "속성", "호환성", "높은 DPI 설정 변경"에서 "높은 DPI 조정 동작을 재정의합니다."를 활성화하여 강제 적용이 가능합니다.
+ * [레거시 \(4.x.x) 스킨 보기](https://github.com/bunubbv/alwaysfine/tree/08fc0554353d3b64ec0ebb01d77568ae9ac6dd05)
