@@ -11,9 +11,9 @@ AlwaysFine은 Windows 10, 11(권장)에서 작동하며, 스킨을 사용하려�
 [Variables]
 serviceKey=(SERVICEKEY)
 </pre>
-이후 (SERVICEKEY)에 **"인코딩" 된 API 키**를 입력하고 저장한 뒤, Rainmeter를 재시작하세요.
+이후 (SERVICEKEY)에 **인코딩된** API 키를 입력하고 저장한 뒤, Rainmeter를 재시작하세요.
 
-## 구동 모습
+## 실행 모습
 ![1](https://github.com/bunubbv/AlwaysFine/assets/75381985/2588eb52-7bd0-4e85-b61c-98d0ca105136)
 
 스킨 로드 시 미세먼지, 초미세먼지 수치 및 등급을 확인할 수 있습니다. 제물포고등학교와 가장 가까운 송현 측정소가 기본값입니다. 등급은 6단계를 사용하며, 좋음, 양호, 보통, 나쁨, 매우 나쁨, 최악으로 나누어집니다.
