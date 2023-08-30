@@ -6,21 +6,21 @@
 2022년 하반기, 학급에서 미세먼지 수치를 매일 칠판에 기록하는 역할을 담당하게 되었는데, 조금 더 편하게 할 수 있도록 개발했습니다. 대한민국 내 모든 측정소를 지원하고 WHO 기준을 일부 수정한 자체적인 기준을 사용합니다.
 
 ## 사용 방법
-AlwaysFine은 Windows 10, 11(권장)을 지원하며, 스킨을 사용하려면 API 키를 입력해야 합니다. [이곳에서](https://www.data.go.kr/data/15073861/openapi.do) API 키를 발급받고, 스킨이 있는 폴더에 'servicekey.inc' 파일을 생성합니다.
+AlwaysFine은 Windows 10, 11(권장)에서 작동하며, 스킨을 사용하려면 API 키를 입력해야 합니다. [이곳에서](https://www.data.go.kr/data/15073861/openapi.do) API 키를 발급받고, 스킨이 위치한 폴더 내에 'servicekey.inc' 파일을 생성합니다.
 <pre>
 [Variables]
 serviceKey=(SERVICEKEY)
 </pre>
-(SERVICEKEY)에 API 키를 입력해주세요. **API 키는 인코딩된 키를 사용해야 합니다.** 그리고 저장한 뒤, Rainmeter를 재시작하세요.
+이후 (SERVICEKEY)에 **"인코딩" 된 API 키**를 입력하고 저장한 뒤, Rainmeter를 재시작하세요.
 
 ## 구동 모습
 ![1](https://github.com/bunubbv/AlwaysFine/assets/75381985/2588eb52-7bd0-4e85-b61c-98d0ca105136)
 
-스킨 로드 시 미세먼지, 초미세먼지 수치 및 등급을 확인할 수 있습니다. 측정소는 제물포고등학교와 가장 가까운 송현 측정소가 기본값이며, 등급은 좋음, 양호, 보통, 나쁨, 매우 나쁨, 최악으로 총 6단계가 있습니다.
+스킨 로드 시 미세먼지, 초미세먼지 수치 및 등급을 확인할 수 있습니다. 제물포고등학교와 가장 가까운 송현 측정소가 기본값입니다. 등급은 6단계를 사용하며, 좋음, 양호, 보통, 나쁨, 매우 나쁨, 최악으로 나누어집니다.
 
 ![2](https://github.com/bunubbv/AlwaysFine/assets/75381985/907e3808-9286-4f72-93f5-313e8f2152a5)
 
-미세먼지와 초미세먼지 수치에 마우스를 올리면 현재 등급의 분류 범위와 행동 지침을 볼 수 있습니다.
+미세먼지와 초미세먼지 수치에 마우스를 올리면 현재 등급의 범위와 행동 지침을 볼 수 있습니다.
 
 ![3](https://github.com/bunubbv/AlwaysFine/assets/75381985/eaa03fd9-dd29-4b11-8889-72fb4584c125)
 
@@ -101,5 +101,5 @@ AlwaysFine은 GNU Lesser General Public License v2.1 라이선스로 배포됩�
     * 코드 구조 개선 및 최적화
 
 ## 그 외
- * Rainmeter는 HiDPI를 지원하지 않아 시인성 문제가 있을 수 있습니다. 이를 해결하려면 Rainmeter 폴더(Program Files/Rainmeter)에서 "Rainmeter.exe"를 우클릭한 후, "속성", "호환성", "높은 DPI 설정 변경"에서 "높은 DPI 조정 동작을 재정의합니다."를 활성화하면 됩니다.
- * [레거시 스킨 \(4.x.x) 보기](https://github.com/bunubbv/alwaysfine/tree/08fc0554353d3b64ec0ebb01d77568ae9ac6dd05)
+* Rainmeter는 HiDPI를 지원하지 않아 시인성 문제가 발생할 수 있습니다. 이를 해결하려면 Rainmeter 폴더(Program Files/Rainmeter)에서 "Rainmeter.exe"를 우클릭한 후, "속성", "호환성", "높은 DPI 설정 변경"에서 "높은 DPI 조정 동작을 재정의합니다."를 활성화하세요.
+* [레거시 스킨 \(4.x.x) 보기](https://github.com/bunubbv/alwaysfine/tree/08fc0554353d3b64ec0ebb01d77568ae9ac6dd05)
