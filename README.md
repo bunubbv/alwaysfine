@@ -101,7 +101,7 @@ AlwaysFine은 GNU Lesser General Public License v2.1 라이선스로 배포됩�
     * 미세먼지 정보가 갱신되지 않는 문제 해결
     * 코드 구조 개선 및 최적화
 * 2023-09-01 5.4.4
-    * 24:00로 표시되는 정각을 00:00으로 변경
+    * 24:00으로 출력되는 시간 표기를 00:00으로 변경
 
 ## 그 외
 * Rainmeter는 HiDPI를 지원하지 않아 시인성 문제가 발생할 수 있습니다. 이를 해결하려면 Rainmeter 폴더(Program Files/Rainmeter)에서 "Rainmeter.exe"를 우클릭한 후, "속성", "호환성", "높은 DPI 설정 변경"에서 "높은 DPI 조정 동작을 재정의합니다."를 활성화하세요.
