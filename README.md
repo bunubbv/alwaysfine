@@ -9,9 +9,9 @@
 Windows 10, Windows 11(권장)을 지원하며, 사용 전 측정소에서 정보를 불러오기 위해 API 키를 입력해야 합니다. [이곳에서](https://www.data.go.kr/data/15073861/openapi.do) API 키를 발급받고, 스킨이 위치한 폴더 내에 'servicekey.inc' 파일을 생성하고 다음과 같이 입력합니다.
 <pre>
 [Variables]
-serviceKey=(SERVICEKEY)
+requestKey=(KEY)
 </pre>
-(SERVICEKEY)에는 **인코딩된** API 키를 입력합니다. 저장한 뒤 Rainmeter가 실행 중이라면 다시 실행하세요.
+(KEY) 부분에 **인코딩된** API 키를 입력합니다. 저장한 뒤 Rainmeter가 실행 중이라면 다시 실행하세요.
 
 ## 실행 모습
 ![1](https://github.com/bunubbv/AlwaysFine/assets/75381985/2588eb52-7bd0-4e85-b61c-98d0ca105136)
