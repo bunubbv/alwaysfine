@@ -14,19 +14,19 @@ requestKey=(KEY)
 (KEY) 부분에 **인코딩된** API 키를 입력합니다. 저장한 뒤 Rainmeter가 실행 중이라면 다시 실행하세요.
 
 ## 실행 모습
-![1](https://github.com/bunubbv/alwaysfine/assets/75381985/6a1e19bf-7e61-4168-bfa5-e55be9cde71e)
+![1](https://github.com/bunubbv/alwaysfine/assets/75381985/39820544-63db-475a-9c95-4370fbb01725)
 
-스킨 로드 시 미세먼지, 초미세먼지 수치 및 등급을 확인할 수 있습니다. 제물포고등학교와 가장 가까운 송현 측정소가 기본값입니다. 등급은 6단계를 사용하며, 좋음, 양호, 보통, 나쁨, 매우 나쁨, 최악이 있습니다.
+스킨 로드 시 미세먼지, 초미세먼지 수치 및 등급을 확인할 수 있습니다. 제물포고등학교와 가장 가까운 송현 측정소가 기본값입니다. 등급은 7단계로 나누어지며, 매우 좋음, 좋음, 양호, 보통, 나쁨, 매우 나쁨, 최악이 있습니다.
 
-![2](https://github.com/bunubbv/alwaysfine/assets/75381985/4303ad28-424d-4c34-864e-80d2cce7c65f)
+![2](https://github.com/bunubbv/alwaysfine/assets/75381985/44aa54f7-74b6-450d-b3cf-e274f9da67b9)
 
 미세먼지와 초미세먼지 수치에 마우스를 올리면 현재 등급의 범위와 행동 지침을 볼 수 있습니다.
 
-![3](https://github.com/bunubbv/alwaysfine/assets/75381985/2637d727-f7c4-4514-96d3-82d34cd666c1)
+![3](https://github.com/bunubbv/alwaysfine/assets/75381985/09d16067-a7fe-45ff-8ede-0d740b9848a1)
 
 설정 버튼을 누른 모습입니다. 아무 곳이나 눌러 닫을 수 있으며, 입력 창에 측정소를 입력하고 Enter를 눌러 측정소를 변경할 수 있습니다. 변경한 측정소는 자동 업데이트 전까치 유지되고, 측정소 목록은 위 "측정소 목록" 버튼을 눌러 확인할 수 있습니다.
 
-오른쪽에서 스킨의 버전을 확인할 수 있으며, "깃허브 링크"를 누르면 현재 페이지로 연결됩니다.
+오른쪽에서 스킨의 버전을 확인할 수 있으며, "Github" 버튼을 누르면 현 Github 페이지로 연결됩니다.
 
 ## 라이선스
 AlwaysFine은 GNU Lesser General Public License v2.1 라이선스로 배포됩니다. 자세한 내용은 [LICENSE](/LICENSE)를 참조하세요.
