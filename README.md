@@ -14,15 +14,15 @@ requestKey=(KEY)
 (KEY) 부분에 **인코딩된** API 키를 입력합니다. 저장한 뒤 Rainmeter가 실행 중이라면 다시 실행하세요.
 
 ## 실행 모습
-![1](https://github.com/bunubbv/AlwaysFine/assets/75381985/2588eb52-7bd0-4e85-b61c-98d0ca105136)
+![1](https://github.com/bunubbv/alwaysfine/assets/75381985/6a1e19bf-7e61-4168-bfa5-e55be9cde71e)
 
 스킨 로드 시 미세먼지, 초미세먼지 수치 및 등급을 확인할 수 있습니다. 제물포고등학교와 가장 가까운 송현 측정소가 기본값입니다. 등급은 6단계를 사용하며, 좋음, 양호, 보통, 나쁨, 매우 나쁨, 최악이 있습니다.
 
-![2](https://github.com/bunubbv/AlwaysFine/assets/75381985/907e3808-9286-4f72-93f5-313e8f2152a5)
+![2](https://github.com/bunubbv/alwaysfine/assets/75381985/4303ad28-424d-4c34-864e-80d2cce7c65f)
 
 미세먼지와 초미세먼지 수치에 마우스를 올리면 현재 등급의 범위와 행동 지침을 볼 수 있습니다.
 
-![3](https://github.com/bunubbv/AlwaysFine/assets/75381985/eaa03fd9-dd29-4b11-8889-72fb4584c125)
+![3](https://github.com/bunubbv/alwaysfine/assets/75381985/2637d727-f7c4-4514-96d3-82d34cd666c1)
 
 설정 버튼을 누른 모습입니다. 아무 곳이나 눌러 닫을 수 있으며, 입력 창에 측정소를 입력하고 Enter를 눌러 측정소를 변경할 수 있습니다. 변경한 측정소는 자동 업데이트 전까치 유지되고, 측정소 목록은 위 "측정소 목록" 버튼을 눌러 확인할 수 있습니다.
 
@@ -31,7 +31,7 @@ requestKey=(KEY)
 ## 라이선스
 AlwaysFine은 GNU Lesser General Public License v2.1 라이선스로 배포됩니다. 자세한 내용은 [LICENSE](/LICENSE)를 참조하세요.
 
-Pretendard GOV 폰트 라이선스의 경우 [이곳에서](https://github.com/orioncactus/pretendard/blob/main/LICENSE) 확인 가능합니다.
+Pretendard GOV 폰트 라이선스의 경우 Pretendard Github 페이지의 [LICENSE](https://github.com/orioncactus/pretendard/blob/main/LICENSE)를 확인하세요.
 
 ## 업데이트
 * 과거 내역은 별도로 기록하지 않았습니다.
@@ -118,6 +118,25 @@ Pretendard GOV 폰트 라이선스의 경우 [이곳에서](https://github.com/o
     * 텍스트 입력 플러그인의 안정성을 위해 딜레이 적용
     * 이모지에 마우스를 올려도 등급 관련 말풍선이 나오도록 변경
     * 미세먼지, 초미세먼지 값이 모두 없을 시 배경이 바뀌지 않는 문제 해결
+    * 측정소 입력의 길이 제한 완화
+* 2023-09-22 5.4.8
+    * 코드 구조 개선 및 최적화
+        * 미세먼지 등급을 판단하는 코드 최적화
+        * 텍스트 간격 조정의 구현 방식 변경
+        * 오류 및 예외 발생 시 처리 구조 변경
+        * 상위 속성 참조 기능을 사용해 코드 정리
+        * 불필요한 DynamicVariables 속성 제거로 최적화
+    * 간헐적으로 텍스트 입력 상자가 표시되지 않는 문제 해결
+        * 텍스트 입력 플러그인에 적용했던 딜레이 제거
+        * 간헐적으로 설정 창이 사라지는 문제 해결
+    * 디자인 변경
+        * 미세먼지 수치가 높을 때 이모지 영역을 침범하는 문제 해결
+            * μm 단위의 간격 및 글자 크기 변경
+        * 텍스트 정렬을 하나로 통일하여 가독성 향상
+        * 텍스트 크기 조절, 스킨 높이 조절
+    * 자체 등급이었던 "매우 좋음" 등급을 다시 추가
+    * 개발 시 테스트를 위해 디버그 모드 추가
+    * 그 외 오타, 사소한 버그 수정
 
 ## 그 외
 * Rainmeter는 HiDPI를 지원하지 않아 시인성 문제가 발생할 수 있습니다. 이를 해결하려면 Rainmeter 폴더(Program Files/Rainmeter)에서 "Rainmeter.exe"를 우클릭한 후, "속성", "호환성", "높은 DPI 설정 변경"에서 "높은 DPI 조정 동작을 재정의합니다."를 활성화하세요.
