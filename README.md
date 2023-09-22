@@ -137,6 +137,8 @@ Pretendard GOV 폰트 라이선스의 경우 Pretendard Github 페이지의 [LIC
     * 자체 등급이었던 "매우 좋음" 등급을 다시 추가
     * 개발 시 테스트를 위해 디버그 모드 추가
     * 그 외 오타, 사소한 버그 수정
+* 2023-09-22 5.4.9
+    * 미세먼지 등급이 갱신되지 않는 문제 해결
 
 ## 그 외
 * Rainmeter는 HiDPI를 지원하지 않아 시인성 문제가 발생할 수 있습니다. 이를 해결하려면 Rainmeter 폴더(Program Files/Rainmeter)에서 "Rainmeter.exe"를 우클릭한 후, "속성", "호환성", "높은 DPI 설정 변경"에서 "높은 DPI 조정 동작을 재정의합니다."를 활성화하세요.
