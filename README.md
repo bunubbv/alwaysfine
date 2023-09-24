@@ -14,15 +14,15 @@ requestKey=(KEY)
 (KEY) 부분에 **인코딩된** API 키를 입력합니다. 저장한 뒤 Rainmeter가 실행 중이라면 다시 실행하세요.
 
 ## 실행 모습
-![1](https://github.com/bunubbv/alwaysfine/assets/75381985/39820544-63db-475a-9c95-4370fbb01725)
+![1](https://github.com/bunubbv/alwaysfine/assets/75381985/c20e759f-b619-4215-a32d-e0d980f99a06)
 
 스킨 로드 시 미세먼지, 초미세먼지 수치 및 등급을 확인할 수 있습니다. 제물포고등학교와 가장 가까운 송현 측정소가 기본값입니다. 등급은 7단계로 나누어지며, 매우 좋음, 좋음, 양호, 보통, 나쁨, 매우 나쁨, 최악이 있습니다.
 
-![2](https://github.com/bunubbv/alwaysfine/assets/75381985/44aa54f7-74b6-450d-b3cf-e274f9da67b9)
+![2](https://github.com/bunubbv/alwaysfine/assets/75381985/8d74e6ae-0679-4e3e-ad05-0d918fa830d4)
 
 미세먼지와 초미세먼지 수치에 마우스를 올리면 현재 등급의 범위와 행동 지침을 볼 수 있습니다.
 
-![3](https://github.com/bunubbv/alwaysfine/assets/75381985/09d16067-a7fe-45ff-8ede-0d740b9848a1)
+![3](https://github.com/bunubbv/alwaysfine/assets/75381985/d01a547e-a454-4175-a06a-5f061ee0ad12)
 
 설정 버튼을 누른 모습입니다. 아무 곳이나 눌러 닫을 수 있으며, 입력 창에 측정소를 입력하고 Enter를 눌러 측정소를 변경할 수 있습니다. 변경한 측정소는 자동 업데이트 전까치 유지되고, 측정소 목록은 위 "측정소 목록" 버튼을 눌러 확인할 수 있습니다.
 
@@ -34,6 +34,10 @@ AlwaysFine은 GNU Lesser General Public License v2.1 라이선스로 배포됩�
 Pretendard GOV 폰트 라이선스의 경우 Pretendard Github 페이지의 [LICENSE](https://github.com/orioncactus/pretendard/blob/main/LICENSE)를 확인하세요.
 
 ## 업데이트
+<details>
+  <summary>업데이트 내역 확인</summary>
+&nbsp;
+
 * 과거 내역은 별도로 기록하지 않았습니다.
 * 2023-05-08 4.0.3
     * 송림 측정소 가동 중단으로 송현 측정소로 변경
@@ -151,6 +155,10 @@ Pretendard GOV 폰트 라이선스의 경우 Pretendard Github 페이지의 [LIC
     * 미세먼지 수치가 높을 때 텍스트가 이모지 영역을 침범하는 문제 해결
     * 이모지 크기를 텍스트 높이에 맞게 조절
     * 일부 문구를 자연스럽게 변경
+* 2023-09-24 5.4.11
+    * 미세먼지 수치가 높을 때 조정된 간격이 이후에도 유지될 수 있는 잠재적 문제 해결
+    * 미세먼지 등급의 모든 텍스트 간격을 수치가 높을 때 조정하여 가독성 향상
+</details>
 
 ## 그 외
 * Rainmeter는 HiDPI를 지원하지 않아 시인성 문제가 발생할 수 있습니다. 이를 해결하려면 Rainmeter 폴더(Program Files/Rainmeter)에서 "Rainmeter.exe"를 우클릭한 후, "속성", "호환성", "높은 DPI 설정 변경"에서 "높은 DPI 조정 동작을 재정의합니다."를 활성화하세요.
