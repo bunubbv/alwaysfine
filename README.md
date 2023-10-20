@@ -158,6 +158,8 @@ Pretendard GOV 폰트 라이선스의 경우 Pretendard Github 페이지의 [LIC
 * 2023-09-24 5.4.11
     * 미세먼지 수치가 높을 때 조정된 간격이 이후에도 유지될 수 있는 잠재적 문제 해결
     * 미세먼지 등급의 모든 텍스트 간격을 수치가 높을 때 조정하여 가독성 향상
+* 2023-10-20 5.4.12
+    * 폰트 변경 (Pretendard GOV > Pretendard opentype 적용)
 </details>
 
 ## 그 외
