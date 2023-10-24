@@ -31,7 +31,7 @@ requestKey=(KEY)
 ## 라이선스
 AlwaysFine은 GNU Lesser General Public License v2.1 라이선스로 배포됩니다. 자세한 내용은 [LICENSE](/LICENSE)를 참조하세요.
 
-Pretendard GOV 폰트 라이선스의 경우 Pretendard Github 페이지의 [LICENSE](https://github.com/orioncactus/pretendard/blob/main/LICENSE)를 확인하세요.
+글꼴의 라이선스 정보는 Pretendard Github 페이지의 [LICENSE](https://github.com/orioncactus/pretendard/blob/main/LICENSE)를 확인하세요.
 
 ## 업데이트
 <details>
@@ -45,7 +45,7 @@ Pretendard GOV 폰트 라이선스의 경우 Pretendard Github 페이지의 [LIC
     * 업데이트 과정 중 생성되는 다운로드 폴더 삭제
 * 2023-05-12 4.0.5
     * 업데이트 스크립트를 인라인으로 실행하여 속도 향상, 업데이트 이후 무한 루프 발생하는 버그 수정
-    * 폰트 기본 탑재 및 설치 후 스킨이 자동으로 로드되지 않는 버그 수정
+    * 글꼴 기본 탑재 및 설치 후 스킨이 자동으로 로드되지 않는 버그 수정
 * 2023-08-11 5.0.0
     * 스킨 리팩토링 (불필요한 코드, 변수 정리 및 최적화, 약 Ln 600 > 400)
     * 업데이트 구조 변경으로 안정성 향상
@@ -53,7 +53,7 @@ Pretendard GOV 폰트 라이선스의 경우 Pretendard Github 페이지의 [LIC
         * 파일 무결성 검증 진행
         * 호환성 문제로 요구 버전 윈도우 10으로 상향
         * 오류 방지를 위해 다시 시작 시 업데이트 반영
-    * 스킨 디자인 및 폰트 변경
+    * 스킨 디자인 및 글꼴 변경
     * 변경한 측정소 정보가 저장되도록 변경
     * 스킨 로드 시 레이아웃 및 설정 자동 적용
     * 오픈 소스로 스킨 배포
@@ -79,7 +79,7 @@ Pretendard GOV 폰트 라이선스의 경우 Pretendard Github 페이지의 [LIC
         * 데이터 갱신 주기 처리 구조 변경
         * 그 외 유지보수를 위한 구조 변경
         * 불필요한 속성값을 제거하여 최적화
-    * 가독성을 위해 고정폭 폰트(Pretendard GOV)로 변경
+    * 가독성을 위해 고정폭 글꼴(Pretendard GOV)로 변경
     * 미세먼지 등급의 글자 수가 다른 경우 간격을 조정하여 가독성 향상
     * 측정소 한 곳이 점검 중이어도 말풍선에 다른 측정소 정보가 나오게 변경
     * 인터넷 문제 혹은 잘못된 측정소 입력 시 상황에 따라 적절한 문구가 나오게 변경
@@ -159,7 +159,7 @@ Pretendard GOV 폰트 라이선스의 경우 Pretendard Github 페이지의 [LIC
     * 미세먼지 수치가 높을 때 조정된 간격이 이후에도 유지될 수 있는 잠재적 문제 해결
     * 미세먼지 등급의 모든 텍스트 간격을 수치가 높을 때 조정하여 가독성 향상
 * 2023-10-20 5.4.12
-    * 폰트 변경 (Pretendard GOV > Pretendard opentype 적용)
+    * 글꼴 변경 (Pretendard GOV > Pretendard opentype 적용)
 </details>
 
 ## 그 외
